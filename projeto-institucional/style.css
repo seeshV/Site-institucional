@@ -1,0 +1,162 @@
+/* Resetando estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo e fontes */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 28px;
+    color: #ffcc00;
+    margin-left: 15px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+    background-image: url('img/luca-bravo-XJXWbfSo2f0-unsplash.jpg'); /* Substitua com uma imagem real */
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #fff; /* Garantindo que o texto seja legível */
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #fff; /* Garantindo que o texto seja legível */
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #ff9900;
+}
+
+/* Serviços */
+.servicos {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.servicos h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.servicos-lista {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.servico {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.servico h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.servico p {
+    font-size: 16px;
+}
+
+/* Contato */
+.contato {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato label {
+    margin: 10px 0;
+}
+
+.contato input, .contato textarea {
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contato button {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contato button:hover {
+    background-color: #ff9900;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
